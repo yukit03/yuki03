@@ -13,7 +13,7 @@ public class Panel1 extends JPanel {
 	 */
 	public Panel1() {
 		
-		JButton button = new JButton("閉じた");
+		JButton button = new JButton("閉じる");
 		add(button);//ボタンをパネルに追加
 		button.addActionListener(new ActionListener(){//ボタンを押したときの処理をさせるクラスの実装
 			public void actionPerformed(ActionEvent e) {//実際の内容
